@@ -1,6 +1,6 @@
 # DNA Sequence Analysis (Ambiguous and Unambiguous)
 @travelerfromeast<br>
-<b>[01-07-2025]</b>
+<b>[01-07-2025]</b><br>
 This repository contains two Jupyter notebooks for analyzing DNA sequences:
 
 <ol>
