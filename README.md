@@ -1,5 +1,5 @@
 # DNA Sequence Analysis (Ambiguous and Unambiguous)
-@travelerfromeast
+@travelerfromeast<br>
 <b>[01-07-2025]</b>
 This repository contains two Jupyter notebooks for analyzing DNA sequences:
 
