@@ -109,7 +109,9 @@ This repository contains two Jupyter notebooks for analyzing DNA sequences:
   </tr>
 </table>
 For RNA, replace T with U (e.g., Y = C or U)
----
+
+<br>
+<br>
 
 ## Example Usage
 
