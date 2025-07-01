@@ -143,7 +143,7 @@ This tool performs **reverse translation**, taking an input **protein sequence**
 - Handles:
   - Degeneracy of the genetic code (multiple codons for one amino acid)
   - Stop codons (`*`)
-- Does not handle ambiguous amino acid codes (like `X`, `J`)
+- Does not handle ambiguous amino acid codes (like `X`)
 
 ## Example
 Input: <br>
