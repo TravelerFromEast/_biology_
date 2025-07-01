@@ -147,9 +147,10 @@ This code performs **reverse translation**, taking an input **protein sequence**
 - Does not handle ambiguous amino acid codes (like `X`)
 
 ## Example
-Input: <br>
+<b>Input:</b> <br>
 protein:  MRT <br>
 
+<b>Output:</b> <br>
 possible mrna sequences:<br>
 mRNA[0]:  AUGCGUACU<br>
 mRNA[1]:  AUGCGUACC<br>
