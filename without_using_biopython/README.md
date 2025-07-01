@@ -134,8 +134,8 @@ protein:  YXX (here, X is an ambiguous amino acid corresponding to the ambiguous
 # Reverse Translation: Protein → mRNA Codons
 @nullbeing72<br>
 <b>[012-07-2025]</b><br>
-'seq_.ipynb'<br>
-This tool performs **reverse translation**, taking an input **protein sequence** (amino acids) and generating **all possible mRNA codon sequences** that could encode it based on the **genetic code**.
+'<b>seq_.ipynb</b>'<br>
+This code performs **reverse translation**, taking an input **protein sequence** (amino acids) and generating **all possible mRNA codon sequences** that could encode it based on the **genetic code**.
 
 ## Features
 
