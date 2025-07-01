@@ -128,3 +128,49 @@ template strand:  ATGNGTRCG
 coding strand:  TACNCAYGC
 mRNA:  UACNCAYGC
 protein:  YXX (here, X is an ambiguous amino acid corresponding to the ambiguous codon)
+
+
+
+# Reverse Translation: Protein → mRNA Codons
+@nullbeing72<br>
+<b>[012-07-2025]</b><br>
+This tool performs **reverse translation**, taking an input **protein sequence** (amino acids) and generating **all possible mRNA codon sequences** that could encode it based on the **genetic code**.
+
+## Features
+
+- Input: Protein sequence (1-letter amino acid codes, e.g., `MAF`)
+- Output: All possible mRNA sequences that can translate into the given protein
+- Handles:
+  - Degeneracy of the genetic code (multiple codons for one amino acid)
+  - Stop codons (`*`)
+- Does not handle ambiguous amino acid codes (like `X`, `J`)
+
+## Example
+Input: <br>
+protein:  MRT <br>
+
+possible mrna sequences:<br>
+mRNA[0]:  AUGCGUACU<br>
+mRNA[1]:  AUGCGUACC<br>
+mRNA[2]:  AUGCGUACA<br>
+mRNA[3]:  AUGCGUACG<br>
+mRNA[4]:  AUGCGCACU<br>
+mRNA[5]:  AUGCGCACC<br>
+mRNA[6]:  AUGCGCACA<br>
+mRNA[7]:  AUGCGCACG<br>
+mRNA[8]:  AUGCGAACU<br>
+mRNA[9]:  AUGCGAACC<br>
+mRNA[10]:  AUGCGAACA<br>
+mRNA[11]:  AUGCGAACG<br>
+mRNA[12]:  AUGCGGACU<br>
+mRNA[13]:  AUGCGGACC<br>
+mRNA[14]:  AUGCGGACA<br>
+mRNA[15]:  AUGCGGACG<br>
+mRNA[16]:  AUGAGAACU<br>
+mRNA[17]:  AUGAGAACC<br>
+mRNA[18]:  AUGAGAACA<br>
+mRNA[19]:  AUGAGAACG<br>
+mRNA[20]:  AUGAGGACU<br>
+mRNA[21]:  AUGAGGACC<br>
+mRNA[22]:  AUGAGGACA<br>
+mRNA[23]:  AUGAGGACG<br>
